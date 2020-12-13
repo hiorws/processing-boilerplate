@@ -3,8 +3,9 @@ import processing.pdf.*;
 import geomerative.*;
 
 /* Set the width and height of your screen canvas in pixels */
-final int CONFIG_WIDTH_PIXELS = 500;
-final int CONFIG_HEIGHT_PIXELS = 500;
+// for A2 300dpi use 1191 x 1684
+final int CONFIG_WIDTH_PIXELS = 1684;
+final int CONFIG_HEIGHT_PIXELS = 1191;
 
 /*
  * When generating high-resolution images, the CONFIG_SCALE_FACTOR
